@@ -6,7 +6,11 @@ console.log("Bem-vindo(a), " + nomeHeroi + "!")
 let xp = 7599
 let nivel;
 
+//loop
 
+for(let i = 0; i < 10000; i++){
+    console.log("Seu XP atual é de: " + xp);
+}
 
 //estrutura condicional para verificar o nível do herói
 if (xp <= 1000){
@@ -27,4 +31,4 @@ if (xp <= 1000){
     nivel = "Radiante"
 }
 
-console.log("O Herói de nome: " + nomeHeroi + "está no nível: " + nivel + "!")
+console.log("O Herói de nome: " + nomeHeroi + " está no nível: " + nivel + "!")
